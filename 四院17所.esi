@@ -1,0 +1,572 @@
+<Root>
+  <Solution KYID="240C79CA-12FB-4F60-8C51-A236C41B7257" Name="四院17所" Version="5.5.4" Type="Windows"><![CDATA[]]></Solution>
+  <Project KYID="730D52FD-0EA1-4A21-BDF8-7C3F36DDBB8B" Name="四院17所" Author="作者名"><![CDATA[描述...]]></Project>
+  <Simulation KYID="37C274F1-AE51-4FC2-B15F-46E463CFADF8" Name="交联环境" Project="730D52FD-0EA1-4A21-BDF8-7C3F36DDBB8B" />
+  <TestingSystem KYID="A95315C3-113E-48CA-911F-33B15EC60208" Name="待测系统" Simulation="37c274f1-ae51-4fc2-b15f-46e463cfadf8" Description="" />
+  <SIMTestingSystem KYID="99FBB33D-F1AD-4489-B43D-93D360C8ACFB" Name="待测系统" Model="A95315C3-113E-48CA-911F-33B15EC60208" Rect="{X=820,Y=244,Width=100,Height=100}" Image="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" />
+  <DevicePlanFolder KYID="03A1728A-3743-4926-AFCA-803B937443A9" Name="硬件规划" ParentID="730D52FD-0EA1-4A21-BDF8-7C3F36DDBB8B" />
+  <CheckingFolder KYID="9F4CBB67-380A-48CE-91D8-44C6E63D613F" Name="校验算法" ParentID="730D52FD-0EA1-4A21-BDF8-7C3F36DDBB8B" />
+  <TopIncludedFolder KYID="AACA9A3B-0A00-46EF-9900-9128DD403957" Name="内容附件" ParentID="730D52FD-0EA1-4A21-BDF8-7C3F36DDBB8B" />
+  <TopTestCaseFolder KYID="06746DBC-74A6-42A4-8FC1-B27426F1B667" Name="测试用例" ParentID="730D52FD-0EA1-4A21-BDF8-7C3F36DDBB8B" />
+  <TopMonitorFolder KYID="881F0CD9-7D86-455A-95EB-FAAF477B347D" Name="图形监控" ParentID="730D52FD-0EA1-4A21-BDF8-7C3F36DDBB8B" />
+  <TopConstraintFolder KYID="3FCDB6D0-F5B6-4376-AEED-274C8317EDB5" Name="约束网络" ParentID="730D52FD-0EA1-4A21-BDF8-7C3F36DDBB8B" />
+  <HardwarePlan KYID="10BF1904-F51F-4EDD-9F07-6CCE6F5506F9" Name="设备规划" Parent="03A1728A-3743-4926-AFCA-803B937443A9" />
+  <PCPlan KYID="7991F8DD-F682-4245-8E66-8DC87DE077B4" Name="PC规划" DevicePlan="10BF1904-F51F-4EDD-9F07-6CCE6F5506F9" IsActive="true" />
+  <Server KYID="ED6DDF22-BFB6-4641-89AF-FAA5A28DE5EB" Name="Server_1" IP="127.0.0.1" Port="7692" PCPlan="7991F8DD-F682-4245-8E66-8DC87DE077B4" />
+  <PeripheralSystem KYID="31D31C1E-311F-4FE9-98C8-176CD99216FE" Name="外围系统_1" Simulation="37C274F1-AE51-4FC2-B15F-46E463CFADF8" Description="" />
+  <SIMPeripheralSystem KYID="C93202F5-B1C3-455F-8284-2C2E80DF05A4" Name="外围系统_1" Model="31D31C1E-311F-4FE9-98C8-176CD99216FE" Rect="{X=141,Y=235,Width=80,Height=80}" Image="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" />
+  <LogicChannel KYID="41EFE3B3-A2C9-4DE1-9339-EE409CD2B3DA" Name="CH_232_1" PeripheralSystem="31D31C1E-311F-4FE9-98C8-176CD99216FE" ChannelType="232" />
+  <SIMChannel KYID="0E7C7DA3-5269-4BFC-AA18-F9C6FC2C367D" Name="SIMChannel_1" Model="41EFE3B3-A2C9-4DE1-9339-EE409CD2B3DA" Rect="{X=435.9041,Y=139.1816,Width=10,Height=10}" />
+  <PlaningChannel KYID="9E7C0E12-B768-4FD3-8BD3-2D99F5771220" Name="CH_232_1" HardwarePlan="10BF1904-F51F-4EDD-9F07-6CCE6F5506F9" LogicChannelID="41EFE3B3-A2C9-4DE1-9339-EE409CD2B3DA" />
+  <Protocol KYID="E555D02D-AB07-4FF2-8665-806485DF2D71" Name="Data_P" Parent="41EFE3B3-A2C9-4DE1-9339-EE409CD2B3DA" Direction="READ_WRITE" Document=""><![CDATA[Protocol Main #
+    Segment Seg_1 StandardUInt32 Default=1
+    Segment Seg_2 StandardUInt32 Default=2
+    Segment Seg_3 StandardUInt32 Default=3
+    Segment Seg_4 StandardUInt32 Default=4
+    Segment Seg_5 StandardUInt32 Default=5
+    Segment Seg_6 StandardUInt32 Default=6
+    Segment Seg_7 StandardUInt32 Default=7
+    Segment Seg_8 StandardUInt32 Default=8
+    Segment Seg_9 StandardUInt32 Default=9
+    Segment Seg_10 StandardUInt32 Default=10
+    Segment Seg_11 StandardUInt32 Default=11
+    Segment Seg_12 StandardUInt32 Default=12
+    Segment Seg_13 StandardUInt32 Default=13
+    Segment Seg_14 StandardUInt32 Default=14
+    Segment Seg_15 StandardUInt32 Default=15
+    Segment Seg_16 StandardUInt32 Default=16
+    Segment Seg_17 StandardUInt32 Default=17
+    Segment Seg_18 StandardUInt32 Default=18
+    Segment Seg_19 Buffer Count=60
+    Segment Seg_20 StandardUInt32 Default=20
+End
+]]></Protocol>
+  <SIMProtocol KYID="B52D4942-9819-4735-B43B-4E5ECBBC6F2A" Name="SIMProtocol_1" Model="E555D02D-AB07-4FF2-8665-806485DF2D71" Direction="READ_WRITE" Points="688,144" />
+  <TCPython KYID="867D5FE4-473F-4780-BF47-C246AB3AD3CA" Name="接收数据" FolderID="06746DBC-74A6-42A4-8FC1-B27426F1B667">
+    <Code><![CDATA[seekresult=CH_232_1.Clear()
+指令信息包=[]
+包最大长度=20
+Frame=None
+指令信息总长度N=0
+总包数X=0
+当前包数据长度=0
+当前子包序号=0
+本包数据总帧数Z=0
+本包接收的当前帧数=0
+def 重置环境信息():
+    global 指令信息包,包最大长度,Frame,指令信息总长度N,总包数X,当前包数据长度,本包数据总帧数Z,本包接收的当前帧数
+    指令信息包=[]
+    包最大长度=20
+    Frame=None
+    指令信息总长度N=0
+    总包数X=0
+    当前包数据长度=0
+    当前子包序号=0
+    本包数据总帧数Z=0
+    本包接收的当前帧数=0
+    print '888888888888'
+
+def 分析帧是否为首包第一帧():
+    if Frame[2]&0XA0 != 0XA0:
+        return 
+    if Frame[7] != 1:
+        return
+    machine.收到首包第一帧()
+    
+def 记录数据长度标识():
+    global 当前包数据长度
+    当前包数据长度=(Frame[2]&15)*256+Frame[3]
+    
+def 记录数据包总数X():
+    global 总包数X
+    总包数X=Frame[4]*256+Frame[5]
+    
+def 记录指令信息数据总长度N():
+    global 指令信息总长度N
+    指令信息总长度N=Frame[0]*0XFFFFFF+Frame[1]*0XFFFF+Frame[2]*0XFFFF+Frame[3]
+    #print '数据总长度:%d'%(指令信息总长度N)
+
+def 记录子包序号():
+    global 当前子包序号
+    当前子包序号=Frame[6]*256+Frame[7]
+    #print ' 当前子包序号:%d'%(当前子包序号)
+
+def 计算本包数据总帧数Z():
+    global 本包数据总帧数Z
+    len=(Frame[2]&15)*256+Frame[3]
+    本包数据总帧数Z=(len+1)/8+1
+    if ((len+1)%8)!=0:
+        本包数据总帧数Z=本包数据总帧数Z+1
+    #    print ' 本包数据总帧数Z:%d'%(本包数据总帧数Z)
+    
+def 保存数据内容():
+    指令信息包.extend(Frame)   
+
+def 判断数据帧收满没有():
+    global 本包接收的当前帧数 , 本包数据总帧数Z
+    本包接收的当前帧数=本包接收的当前帧数+1
+    #print ' 总帧数:%d,已经接收到的帧数%d'%(本包数据总帧数Z,本包接收的当前帧数)
+    if 本包接收的当前帧数==本包数据总帧数Z-2: #减去首尾共计2帧
+        machine.数据帧收满了()
+        
+def 保存尾包里的数据() : 
+    global 本包接收的当前帧数
+    本包接收的当前帧数=0
+    len=当前包数据长度%8 
+    t=[]
+    t.extend(Frame)
+    指令信息包.extend(t[0:len])
+    #print 指令信息包
+        
+def 判断数据包收满没有():
+    print ' 总包数X:%d,当前子包序号%d'%(总包数X,当前子包序号)  
+    if 总包数X==当前子包序号:
+       machine.数据包收满了()
+    else:
+	machine.数据包还没有收满()
+
+def 通知系统数据包接收完毕():
+    print '消息:接收到完整的数据包:%s'%(指令信息包)
+    machine.自动重置()
+    
+machine=ExtData.接收数据包.Machine
+machine.重置环境信息=重置环境信息
+machine.分析帧是否为首包第一帧=分析帧是否为首包第一帧
+machine.记录数据长度标识=记录数据长度标识
+machine.记录数据包总数X=记录数据包总数X
+machine.记录指令信息数据总长度N=记录指令信息数据总长度N
+machine.记录子包序号=记录子包序号
+machine.计算本包数据总帧数Z=计算本包数据总帧数Z
+machine.保存数据内容=保存数据内容
+machine.判断数据帧收满没有=判断数据帧收满没有
+machine.保存尾包里的数据=保存尾包里的数据
+machine.判断数据包收满没有=判断数据包收满没有
+machine.通知系统数据包接收完毕=通知系统数据包接收完毕
+
+def ReceiveFrame(): 
+    global Frame
+    while True:
+        Frame=CH_232_1.BlockRead(8)
+        machine.收到帧()
+
+def Main():
+    print 'Hello world,Kiyun!'    
+    ReceiveFrame()
+Main()]]></Code>
+  </TCPython>
+  <Client KYID="00E418AE-92E2-4C09-B149-2AF003CB086D" Name="客户端" IP="127.0.0.1" Port="13003" PCPlan="7991F8DD-F682-4245-8E66-8DC87DE077B4" />
+  <Includeds.StateMachine KYID="A6B1E0C7-EE91-45E6-B818-DBFBEE96138A" Name="接收数据包" FolderID="AACA9A3B-0A00-46EF-9900-9128DD403957">
+    <Configor><![CDATA[<StateMachine Start="开始">
+  <State Name="处理初始包第一帧" X="504" Y="40" W="155" H="79">
+    <Command Name="分析帧是否为首包第一帧" />
+    <Transition Event="收到帧" Target="处理初始包第一帧" Points="622.5695,119,660,155,565,192,575.7067,119" />
+    <Transition Event="收到首包第一帧" Target="处理首包第一帧" Points="538.4294,119,425.0283,223" />
+  </State>
+  <State Name="处理首包第一帧" X="311" Y="223" W="155" H="67">
+    <Command Name="记录数据长度标识" />
+    <Command Name="记录数据包总数X" />
+    <Transition Event="收到帧" Target="处理首包第二帧" Points="387.2892,290.0001,382.3012,427.9999" />
+  </State>
+  <State Name="处理首包第二帧" X="302" Y="428" W="158" H="72">
+    <Command Name="记录指令信息数据总长度N" />
+    <Transition Event="收到帧" Target="处理中间包第一帧" Points="418.625,500,486.559,565" />
+  </State>
+  <State Name="处理中间包第一帧" X="441" Y="565" W="181" H="86">
+    <Command Name="记录子包序号" />
+    <Command Name="计算本包数据总帧数Z" />
+    <Transition Event="收到帧" Target="处理中间包数据帧" Points="622,602.033,730,594.9121" />
+  </State>
+  <State Name="处理中间包数据帧" X="730" Y="554" W="149" H="72">
+    <Command Name="保存数据内容" />
+    <Command Name="判断数据帧收满没有" />
+    <Transition Event="数据帧收满了" Target="完成中间包数据帧" Points="879,584.4381,993,575.9273" />
+    <Transition Event="收到帧" Target="处理中间包数据帧" Points="827.7683,554,884,467,735,483,781.1168,554" />
+  </State>
+  <State Name="处理中间包尾帧" X="977" Y="350" W="153" H="83">
+    <Command Name="保存尾包里的数据" />
+    <Command Name="判断数据包收满没有" />
+    <Transition Event="数据包还没有收满" Target="接收后续中间包" Points="988.5273,349.7669,855,264,718,320.752" />
+    <Transition Event="数据包收满了" Target="完成数据包处理" Points="1057.576,349.9996,1067.299,251.0004" />
+  </State>
+  <State Name="完成数据包处理" X="995" Y="196" W="150" H="55">
+    <Command Name="通知系统数据包接收完毕" />
+    <Transition Event="自动重置" Target="开始" Points="1027.308,196,892,108.8423" />
+  </State>
+  <State Name="完成中间包数据帧" X="993" Y="534" W="132" H="74">
+    <Transition Event="收到帧" Target="处理中间包尾帧" Points="1057.866,534.0012,1054.772,433.0006" />
+  </State>
+  <State Name="接收后续中间包" X="613" Y="305" W="105" H="75">
+    <Transition Event="收到帧" Target="处理中间包第一帧" Points="646.5734,380,553.2025,565" />
+  </State>
+  <State Name="开始" X="804" Y="45" W="88" H="71">
+    <Command Name="重置环境信息" />
+    <Transition Event="收到帧" Target="处理初始包第一帧" Points="804,80.3349,659,79.79081" />
+  </State>
+</StateMachine>]]></Configor>
+  </Includeds.StateMachine>
+  <KiyunHD KYID="7C0FB879-62D5-4AC1-9809-B6AEBD02FBCA" Name="KiyunHD_1" HardwarePlan="10BF1904-F51F-4EDD-9F07-6CCE6F5506F9" />
+  <RS232 KYID="9088D338-885E-4D61-AB9F-0D5767287226" Name="CH_232_1" Device="7C0FB879-62D5-4AC1-9809-B6AEBD02FBCA" LogicChannel="41EFE3B3-A2C9-4DE1-9339-EE409CD2B3DA" CacheSize="52428800" PortName="COM1" BaudRate="115200" Parity="0" DataBits="8" StopBits="1" />
+  <RS232 KYID="4DBBC4F6-97A2-450F-8AD6-F2A75985BA26" Name="RS2322" Device="7C0FB879-62D5-4AC1-9809-B6AEBD02FBCA" LogicChannel="00000000-0000-0000-0000-000000000000" CacheSize="52428800" PortName="" BaudRate="9600" Parity="0" DataBits="8" StopBits="1" />
+  <RS232 KYID="4833F350-8847-4DC7-9D9B-CB8A50B3F94F" Name="RS2323" Device="7C0FB879-62D5-4AC1-9809-B6AEBD02FBCA" LogicChannel="00000000-0000-0000-0000-000000000000" CacheSize="52428800" PortName="" BaudRate="9600" Parity="0" DataBits="8" StopBits="1" />
+  <RS232 KYID="D71D182A-59FF-42E7-B935-56B768EC944D" Name="RS2324" Device="7C0FB879-62D5-4AC1-9809-B6AEBD02FBCA" LogicChannel="00000000-0000-0000-0000-000000000000" CacheSize="52428800" PortName="" BaudRate="9600" Parity="0" DataBits="8" StopBits="1" />
+  <RS232 KYID="1707A601-A5B9-4F60-ACBE-FFE5E70B2B25" Name="RS2325" Device="7C0FB879-62D5-4AC1-9809-B6AEBD02FBCA" LogicChannel="00000000-0000-0000-0000-000000000000" CacheSize="52428800" PortName="" BaudRate="9600" Parity="0" DataBits="8" StopBits="1" />
+  <RS422 KYID="629793CE-860B-4AFF-B09E-391E03888089" Name="RS4221" Device="7C0FB879-62D5-4AC1-9809-B6AEBD02FBCA" LogicChannel="00000000-0000-0000-0000-000000000000" CacheSize="52428800" PortName="" BaudRate="9600" Parity="0" DataBits="8" StopBits="1" />
+  <RS422 KYID="6E5725E4-023E-4B0F-8111-5024694A1440" Name="RS4222" Device="7C0FB879-62D5-4AC1-9809-B6AEBD02FBCA" LogicChannel="00000000-0000-0000-0000-000000000000" CacheSize="52428800" PortName="" BaudRate="9600" Parity="0" DataBits="8" StopBits="1" />
+  <RS422 KYID="40098E55-8365-49AC-9F0F-55D9C6DFC763" Name="RS4223" Device="7C0FB879-62D5-4AC1-9809-B6AEBD02FBCA" LogicChannel="00000000-0000-0000-0000-000000000000" CacheSize="52428800" PortName="" BaudRate="9600" Parity="0" DataBits="8" StopBits="1" />
+  <RS422 KYID="130CC614-B0C6-4C6A-84CE-C12731A7187A" Name="RS4224" Device="7C0FB879-62D5-4AC1-9809-B6AEBD02FBCA" LogicChannel="00000000-0000-0000-0000-000000000000" CacheSize="52428800" PortName="" BaudRate="9600" Parity="0" DataBits="8" StopBits="1" />
+  <RS422 KYID="E287150E-17B7-466B-8E2F-544E9E4D638A" Name="RS4225" Device="7C0FB879-62D5-4AC1-9809-B6AEBD02FBCA" LogicChannel="00000000-0000-0000-0000-000000000000" CacheSize="52428800" PortName="" BaudRate="9600" Parity="0" DataBits="8" StopBits="1" />
+  <RS485 KYID="0073B634-8F6C-4A93-ADF3-D83AD9F2F041" Name="RS4851" Device="7C0FB879-62D5-4AC1-9809-B6AEBD02FBCA" LogicChannel="00000000-0000-0000-0000-000000000000" CacheSize="52428800" PortName="" BaudRate="9600" Parity="0" DataBits="8" StopBits="1" />
+  <RS485 KYID="86F65C5C-337D-4794-83F5-FEEA940B3B38" Name="RS4852" Device="7C0FB879-62D5-4AC1-9809-B6AEBD02FBCA" LogicChannel="00000000-0000-0000-0000-000000000000" CacheSize="52428800" PortName="" BaudRate="9600" Parity="0" DataBits="8" StopBits="1" />
+  <RS485 KYID="82F09FED-7650-489A-9D64-2D4605C7F420" Name="RS4853" Device="7C0FB879-62D5-4AC1-9809-B6AEBD02FBCA" LogicChannel="00000000-0000-0000-0000-000000000000" CacheSize="52428800" PortName="" BaudRate="9600" Parity="0" DataBits="8" StopBits="1" />
+  <RS485 KYID="98F60636-86DF-4A37-BB00-BFD99A1D7ED6" Name="RS4854" Device="7C0FB879-62D5-4AC1-9809-B6AEBD02FBCA" LogicChannel="00000000-0000-0000-0000-000000000000" CacheSize="52428800" PortName="" BaudRate="9600" Parity="0" DataBits="8" StopBits="1" />
+  <RS485 KYID="25036718-AF72-4C84-A89F-D7F181AB9DDA" Name="RS4855" Device="7C0FB879-62D5-4AC1-9809-B6AEBD02FBCA" LogicChannel="00000000-0000-0000-0000-000000000000" CacheSize="52428800" PortName="" BaudRate="9600" Parity="0" DataBits="8" StopBits="1" />
+  <CustomCS KYID="9F1709FB-18DE-4A81-AAAC-3552F13B3816" Name="CustomCS1" Device="7C0FB879-62D5-4AC1-9809-B6AEBD02FBCA" LogicChannel="00000000-0000-0000-0000-000000000000" CacheSize="52428800" PluginTypeName="">
+    <Plugin><![CDATA[]]></Plugin>
+    <References />
+  </CustomCS>
+  <CustomCS KYID="933CA269-F0E9-4DF1-9F98-A1984C5C1D24" Name="CustomCS2" Device="7C0FB879-62D5-4AC1-9809-B6AEBD02FBCA" LogicChannel="00000000-0000-0000-0000-000000000000" CacheSize="52428800" PluginTypeName="">
+    <Plugin><![CDATA[]]></Plugin>
+    <References />
+  </CustomCS>
+  <CustomCS KYID="A42EC081-43AC-4DE3-9E3A-3E5FD0BAA706" Name="CustomCS3" Device="7C0FB879-62D5-4AC1-9809-B6AEBD02FBCA" LogicChannel="00000000-0000-0000-0000-000000000000" CacheSize="52428800" PluginTypeName="">
+    <Plugin><![CDATA[]]></Plugin>
+    <References />
+  </CustomCS>
+  <CustomCS KYID="D5CF06C9-9C5B-42FD-81D3-9FB290AE9A24" Name="CustomCS4" Device="7C0FB879-62D5-4AC1-9809-B6AEBD02FBCA" LogicChannel="00000000-0000-0000-0000-000000000000" CacheSize="52428800" PluginTypeName="">
+    <Plugin><![CDATA[]]></Plugin>
+    <References />
+  </CustomCS>
+  <CustomCS KYID="0E4B0911-87DD-4F67-AEBF-B93F132ECF0C" Name="CustomCS5" Device="7C0FB879-62D5-4AC1-9809-B6AEBD02FBCA" LogicChannel="00000000-0000-0000-0000-000000000000" CacheSize="52428800" PluginTypeName="">
+    <Plugin><![CDATA[]]></Plugin>
+    <References />
+  </CustomCS>
+  <CustomPy KYID="7C3E852E-3962-4CD9-9ACA-2F2889DC4E59" Name="CustomPy1" Device="7C0FB879-62D5-4AC1-9809-B6AEBD02FBCA" LogicChannel="00000000-0000-0000-0000-000000000000" CacheSize="52428800"><![CDATA[import struct
+def HasData():
+   return True
+
+def Read():
+   f = open('d:/a.dat', "rb+")
+   a = f.read()
+   l=len(a)
+   data = struct.unpack('b'*l,a) #convert to byte array
+   f.close()
+   return data
+   
+def Write(buf):
+   f = open('d:/a.dat', "wb+")
+   a = f.write(buf)
+   f.close()
+   return True
+]]></CustomPy>
+  <CustomPy KYID="17835A02-207D-4D4F-A64A-F1940684698D" Name="CustomPy2" Device="7C0FB879-62D5-4AC1-9809-B6AEBD02FBCA" LogicChannel="00000000-0000-0000-0000-000000000000" CacheSize="52428800"><![CDATA[import struct
+def HasData():
+   return True
+
+def Read():
+   f = open('d:/a.dat', "rb+")
+   a = f.read()
+   l=len(a)
+   data = struct.unpack('b'*l,a) #convert to byte array
+   f.close()
+   return data
+   
+def Write(buf):
+   f = open('d:/a.dat', "wb+")
+   a = f.write(buf)
+   f.close()
+   return True
+]]></CustomPy>
+  <CustomPy KYID="C69F45AB-87A5-41DA-8028-9B2FBA1EAF00" Name="CustomPy3" Device="7C0FB879-62D5-4AC1-9809-B6AEBD02FBCA" LogicChannel="00000000-0000-0000-0000-000000000000" CacheSize="52428800"><![CDATA[import struct
+def HasData():
+   return True
+
+def Read():
+   f = open('d:/a.dat', "rb+")
+   a = f.read()
+   l=len(a)
+   data = struct.unpack('b'*l,a) #convert to byte array
+   f.close()
+   return data
+   
+def Write(buf):
+   f = open('d:/a.dat', "wb+")
+   a = f.write(buf)
+   f.close()
+   return True
+]]></CustomPy>
+  <CustomPy KYID="287FC0AD-E579-4FF8-BBF5-828F661F847D" Name="CustomPy4" Device="7C0FB879-62D5-4AC1-9809-B6AEBD02FBCA" LogicChannel="00000000-0000-0000-0000-000000000000" CacheSize="52428800"><![CDATA[import struct
+def HasData():
+   return True
+
+def Read():
+   f = open('d:/a.dat', "rb+")
+   a = f.read()
+   l=len(a)
+   data = struct.unpack('b'*l,a) #convert to byte array
+   f.close()
+   return data
+   
+def Write(buf):
+   f = open('d:/a.dat', "wb+")
+   a = f.write(buf)
+   f.close()
+   return True
+]]></CustomPy>
+  <CustomPy KYID="CC79985A-5DCF-4888-A9D6-47C635565E35" Name="CustomPy5" Device="7C0FB879-62D5-4AC1-9809-B6AEBD02FBCA" LogicChannel="00000000-0000-0000-0000-000000000000" CacheSize="52428800"><![CDATA[import struct
+def HasData():
+   return True
+
+def Read():
+   f = open('d:/a.dat', "rb+")
+   a = f.read()
+   l=len(a)
+   data = struct.unpack('b'*l,a) #convert to byte array
+   f.close()
+   return data
+   
+def Write(buf):
+   f = open('d:/a.dat', "wb+")
+   a = f.write(buf)
+   f.close()
+   return True
+]]></CustomPy>
+  <TCP-Client KYID="1D8FE5B1-07B2-4795-94B2-69A5D18921DD" Name="TCPClient1" Device="7C0FB879-62D5-4AC1-9809-B6AEBD02FBCA" LogicChannel="00000000-0000-0000-0000-000000000000" CacheSize="52428800" LocalIP="" LocalPort="9999" IPAddress="127.0.0.1" Port="8888" TimeOut="1000" />
+  <TCP-Client KYID="614A6EF2-D86A-49A5-B5D4-2D570102ED97" Name="TCPClient2" Device="7C0FB879-62D5-4AC1-9809-B6AEBD02FBCA" LogicChannel="00000000-0000-0000-0000-000000000000" CacheSize="52428800" LocalIP="" LocalPort="9999" IPAddress="127.0.0.1" Port="8888" TimeOut="1000" />
+  <TCP-Client KYID="C7658983-8B20-4FCC-82EB-1BAD35EA1F27" Name="TCPClient3" Device="7C0FB879-62D5-4AC1-9809-B6AEBD02FBCA" LogicChannel="00000000-0000-0000-0000-000000000000" CacheSize="52428800" LocalIP="" LocalPort="9999" IPAddress="127.0.0.1" Port="8888" TimeOut="1000" />
+  <TCP-Client KYID="B5E1B0E9-F083-4DFF-A67C-A3535DAC2F3C" Name="TCPClient4" Device="7C0FB879-62D5-4AC1-9809-B6AEBD02FBCA" LogicChannel="00000000-0000-0000-0000-000000000000" CacheSize="52428800" LocalIP="" LocalPort="9999" IPAddress="127.0.0.1" Port="8888" TimeOut="1000" />
+  <TCP-Client KYID="9B051888-781D-4D2C-B480-34741BE6572D" Name="TCPClient5" Device="7C0FB879-62D5-4AC1-9809-B6AEBD02FBCA" LogicChannel="00000000-0000-0000-0000-000000000000" CacheSize="52428800" LocalIP="" LocalPort="9999" IPAddress="127.0.0.1" Port="8888" TimeOut="1000" />
+  <TCP-Server KYID="0C4C9F0C-A862-4AC2-9A4E-CB10B3DB7A15" Name="TCPServer1" Device="7C0FB879-62D5-4AC1-9809-B6AEBD02FBCA" LogicChannel="00000000-0000-0000-0000-000000000000" CacheSize="52428800" ListenerAddress="127.0.0.1" ListenerPort="23456" ClientAddress="127.0.0.2" ClientPort="23457" />
+  <TCP-Server KYID="815F45C2-651C-412B-A06B-6DFCD20EFD54" Name="TCPServer2" Device="7C0FB879-62D5-4AC1-9809-B6AEBD02FBCA" LogicChannel="00000000-0000-0000-0000-000000000000" CacheSize="52428800" ListenerAddress="127.0.0.1" ListenerPort="23456" ClientAddress="127.0.0.2" ClientPort="23457" />
+  <TCP-Server KYID="95616EBE-7DDE-41D6-9CAD-4996892E1ACF" Name="TCPServer3" Device="7C0FB879-62D5-4AC1-9809-B6AEBD02FBCA" LogicChannel="00000000-0000-0000-0000-000000000000" CacheSize="52428800" ListenerAddress="127.0.0.1" ListenerPort="23456" ClientAddress="127.0.0.2" ClientPort="23457" />
+  <TCP-Server KYID="A1225E14-C5C2-46D4-850F-3902D700B76A" Name="TCPServer4" Device="7C0FB879-62D5-4AC1-9809-B6AEBD02FBCA" LogicChannel="00000000-0000-0000-0000-000000000000" CacheSize="52428800" ListenerAddress="127.0.0.1" ListenerPort="23456" ClientAddress="127.0.0.2" ClientPort="23457" />
+  <TCP-Server KYID="AE329389-9C85-422C-91E3-60BE884AF62F" Name="TCPServer5" Device="7C0FB879-62D5-4AC1-9809-B6AEBD02FBCA" LogicChannel="00000000-0000-0000-0000-000000000000" CacheSize="52428800" ListenerAddress="127.0.0.1" ListenerPort="23456" ClientAddress="127.0.0.2" ClientPort="23457" />
+  <UDP KYID="693110A0-06B0-4397-83DB-BA1B8065C1DD" Name="UDP1" Device="7C0FB879-62D5-4AC1-9809-B6AEBD02FBCA" LogicChannel="00000000-0000-0000-0000-000000000000" CacheSize="52428800" ReadIP="127.0.0.1" ReadPort="11111" WriteIP="127.0.0.1" WritePort="22222" />
+  <UDP KYID="534FC1FB-7F02-42A9-857E-D914368ED93B" Name="UDP2" Device="7C0FB879-62D5-4AC1-9809-B6AEBD02FBCA" LogicChannel="00000000-0000-0000-0000-000000000000" CacheSize="52428800" ReadIP="127.0.0.1" ReadPort="11111" WriteIP="127.0.0.1" WritePort="22222" />
+  <UDP KYID="19F82D56-19B0-48E6-A245-DC422D3626D6" Name="UDP3" Device="7C0FB879-62D5-4AC1-9809-B6AEBD02FBCA" LogicChannel="00000000-0000-0000-0000-000000000000" CacheSize="52428800" ReadIP="127.0.0.1" ReadPort="11111" WriteIP="127.0.0.1" WritePort="22222" />
+  <UDP KYID="E691343A-1AB3-4FEA-9964-E89AFBDF093F" Name="UDP4" Device="7C0FB879-62D5-4AC1-9809-B6AEBD02FBCA" LogicChannel="00000000-0000-0000-0000-000000000000" CacheSize="52428800" ReadIP="127.0.0.1" ReadPort="11111" WriteIP="127.0.0.1" WritePort="22222" />
+  <UDP KYID="07E1C03D-E77C-4EED-B97F-05A413989282" Name="UDP5" Device="7C0FB879-62D5-4AC1-9809-B6AEBD02FBCA" LogicChannel="00000000-0000-0000-0000-000000000000" CacheSize="52428800" ReadIP="127.0.0.1" ReadPort="11111" WriteIP="127.0.0.1" WritePort="22222" />
+  <PlaningDevice KYID="EAFF79A0-7643-40A1-96D2-E2B287108369" Name="KiyunHD_1" PCPlan="7991F8DD-F682-4245-8E66-8DC87DE077B4" Client="00E418AE-92E2-4C09-B149-2AF003CB086D" Device="7C0FB879-62D5-4AC1-9809-B6AEBD02FBCA" />
+  <Includeds.StateMachine KYID="471AE421-7626-49EB-9B11-8AD4B3BF3405" Name="发送数据包" FolderID="AACA9A3B-0A00-46EF-9900-9128DD403957">
+    <Configor><![CDATA[<StateMachine Start="开始">
+  <State Name="开始" X="607" Y="156" W="90" H="79">
+    <Transition Event="长度小于20" Target="单包发送" Points="695.2982,233.6635,808,333,1012,257,1013.489,142.002" />
+    <Transition Event="长度大于20" Target="分包发送" Points="607,175.8421,518,136.9632" />
+  </State>
+  <State Name="单包发送" X="958" Y="63" W="112" H="79">
+    <Transition Event="发送结束" Target="开始" Points="958,131.4941,845,190,718,51,670.0415,156" />
+  </State>
+  <State Name="分包发送" X="406" Y="73" W="112" H="79">
+    <Command Name="计算总包数" />
+    <Transition Event="事件0" Target="发送首包" Points="406,124.7096,276,153.0535" />
+  </State>
+  <State Name="发送首包" X="171" Y="127" W="105" H="75">
+    <Transition Event="事件3" Target="发送中间包" Points="224.6433,202.0001,227.3262,289.9999" />
+  </State>
+  <State Name="发送中间包" X="174" Y="290" W="109" H="77">
+    <Transition Event="事件1" Target="发送完成" Points="280.8684,365.7621,378.7129,435.3823" />
+    <Transition Event="事件2" Target="发送中间包" Points="280.9856,291.423,337.5,251.5,228.5,213,337.5,251.5,228.5,213,443,323,432,226,283,301.0491" />
+  </State>
+  <State Name="发送完成" X="378" Y="433" W="117" H="87" />
+</StateMachine>]]></Configor>
+  </Includeds.StateMachine>
+  <TCPython KYID="26CC2DF8-9D52-4B9A-ABC8-299D5F68DD5F" Name="发送数据_单包" FolderID="06746DBC-74A6-42A4-8FC1-B27426F1B667">
+    <Code><![CDATA[# coding:utf-8
+import print_U
+def 重置环境信息():
+    global 指令信息包,包最大长度,Frame,指令信息总长度N,总包数X,当前包数据长度,本包数据总帧数Z,本包接收的当前帧数
+    指令信息包=[]
+    包最大长度=20
+    Frame=None
+    指令信息总长度N=0
+    总包数X=0
+    当前包数据长度=0
+    当前子包序号=0
+    本包数据总帧数Z=0
+    本包接收的当前帧数=0
+    print '888888888888'
+
+#单包数据发送
+def Main():
+    print 'Test Start'
+    data = Protocol_1.ToBytes()
+    data_len = len(data)
+    for i in range(0, data_len, 8):
+        CH_232_1.Write(data[i:i+8])
+        API.Common.Timer.Normal.Sleep(100)
+Main()
+]]></Code>
+  </TCPython>
+  <TCPython KYID="701B191B-4E50-4BBE-81B9-50EDA645F0DC" Name="发送数据_分包_状态机" FolderID="8830694F-EDD3-44E8-8E8E-430E768FDC2B">
+    <Code><![CDATA[# coding:utf-8
+import math
+
+#单包数据发送
+def Main():
+    print 'Test Start'
+    ms = 50
+    data = list(Data_P.ToBytes())
+    data_len = len(data)
+    CH_232_1.Write(data)
+    API.Common.Timer.Normal.Sleep(ms)
+    #计算总包数
+    总包数X = int(math.ceil(data_len/40.0)) + 1
+    print type(总包数X)
+    #发送首包，分两帧发送
+    FirstPackage.数据包总数.Value = 总包数X
+    FirstPackage.数据总长度.Value = data_len
+    First_Datas = FirstPackage.ToBytes()
+    CH_232_1.Write(First_Datas)
+    API.Common.Timer.Normal.Sleep(ms)
+    for i in range(0, len(First_Datas), 8):
+        CH_232_1.Write(First_Datas[i:i+8])
+        API.Common.Timer.Normal.Sleep(ms)
+
+    #发送中间包
+    Package_Head.数据包总数.Value = 总包数X
+
+    for num in range(2, 总包数X+1):
+        Package_Head.数据子包序号.Value = num
+        Package_Head.数据长度.Value = len(data[:40])
+        Package_Data_Head = list(Package_Head.ToBytes())
+        print '============='
+        
+        print '子包序号：%d'%Package_Head.数据子包序号.Value
+        print '数据长度：%d'%Package_Head.数据长度.Value
+        print data[:40]
+        Package_Data = Package_Data_Head + data[:40]
+        CH_232_1.Write(Package_Data)
+        API.Common.Timer.Normal.Sleep(ms)
+        for i in range(0, len(Package_Data), 8):
+            CH_232_1.Write(Package_Data[i:i+8])
+            API.Common.Timer.Normal.Sleep(ms)
+        data = data[40:]
+        
+    print '数据总长度 = %d'%data_len
+    print '总包数X = %d'%总包数X
+    
+#    尾包数据长度Y = data_len % 包最大长度
+#    尾包数据帧数Z = math.ceil((尾包数据长度Y+9) / 8)
+    
+#    for i in range(0, data_len, 8):
+#        CH_232_1.Write(data[i:i+8])
+#        API.Common.Timer.Normal.Sleep(100)
+Main()]]></Code>
+  </TCPython>
+  <TCPython KYID="FF14CBF1-E1EF-4B8B-B1B7-69553A43B183" Name="TCPython用例_1" FolderID="06746DBC-74A6-42A4-8FC1-B27426F1B667">
+    <Code><![CDATA[# coding:utf-8
+
+def Main():
+    print 'Hello world,Kiyun!'
+    a = [1,2,3,4]
+    array=list(Package_Head.ToBytes())
+    array.append(a)
+    bool=CH_232_1.Write(array)
+Main()
+
+
+]]></Code>
+  </TCPython>
+  <Protocol KYID="4C7EFFFB-8744-4695-B475-1C9EC8FBF6BB" Name="Package_Head" Parent="41EFE3B3-A2C9-4DE1-9339-EE409CD2B3DA" Direction="READ_WRITE" Document=""><![CDATA[Protocol Main #
+    Segment 命令字 StandardUInt16 ByteOrder=Big Default=0XAA55
+    Segment 数据标识 RandomUInt Length=4 Default=0XA
+    Segment 数据长度 RandomUInt Length=12 ByteOrder=Big Default=0X1F4
+    Segment 数据包总数 StandardUInt16
+    Segment 数据子包序号 StandardUInt16
+End
+]]></Protocol>
+  <SIMProtocol KYID="BF575894-0A86-4CBE-96A0-771C8B8197DD" Name="SIMProtocol_2" Model="4C7EFFFB-8744-4695-B475-1C9EC8FBF6BB" Direction="READ_WRITE" Points="608,312" />
+  <TCPython KYID="E07BC5D9-1EB1-4C87-82AB-A4F08826D37B" Name="TCPython用例_2" FolderID="06746DBC-74A6-42A4-8FC1-B27426F1B667">
+    <Code><![CDATA[# coding:utf-8
+
+def Main():
+    print 'Hello world,Kiyun!'
+    
+Main()
+
+
+]]></Code>
+  </TCPython>
+  <Protocol KYID="F82C4AE8-5EA8-4645-A79E-4554CA6BC875" Name="FirstPackage" Parent="41EFE3B3-A2C9-4DE1-9339-EE409CD2B3DA" Direction="READ_WRITE" Document=""><![CDATA[Protocol Main #
+    Segment 命令字 StandardUInt16 ByteOrder=Big Default=0XAA55
+    Segment 数据标识 RandomUInt Length=4 Default=0XA
+    Segment 数据长度 RandomUInt Length=12 ByteOrder=Big Default=0x
+    Segment 数据包总数 StandardUInt16
+    Segment 数据子包序号 StandardUInt16 Default=0X1
+    Segment 数据总长度 StandardUInt32
+    Segment 校验和 Checking Algorithm=异或 BitCount=8
+End]]></Protocol>
+  <SIMProtocol KYID="6931D8C8-9F0C-4B1B-9EAD-B9D808922CD4" Name="SIMProtocol_3" Model="F82C4AE8-5EA8-4645-A79E-4554CA6BC875" Direction="READ_WRITE" Points="" />
+  <Checking.FrequentlyUsed KYID="37076C6F-5E8C-49D7-85A8-1280004D8F29" Name="异或" Parent="9F4CBB67-380A-48CE-91D8-44C6E63D613F" Author="作者名">
+    <Description><![CDATA[描述...]]></Description>
+    <Algorithm><![CDATA[AAEAAAD/////AQAAAAAAAAAMAgAAAGZLaXl1bi5FbWJlZFRlc3QuUGx1Z2luLkNoZWNraW5ncy5GcmVxdWVudGx5VXNlZCwgVmVyc2lvbj0xLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwFAQAAAD9LaXl1bi5FbWJlZFRlc3QuUGx1Z2luLkNoZWNraW5ncy5GcmVxdWVudGx5VXNlZC5BbGdvcml0aG1zLlhvcjgAAAAAAgAAAAs=]]></Algorithm>
+  </Checking.FrequentlyUsed>
+  <TestCaseFolder KYID="8830694F-EDD3-44E8-8E8E-430E768FDC2B" Name="发送数据" ParentID="06746DBC-74A6-42A4-8FC1-B27426F1B667" />
+  <TCPython KYID="948112D5-3CBC-49E9-988C-677D499016D4" Name="发送数据_分包_测试" FolderID="8830694F-EDD3-44E8-8E8E-430E768FDC2B">
+    <Code><![CDATA[# coding:utf-8
+import math
+
+#单包数据发送
+def Main():
+    print 'Test Start'
+    ms = 50
+    data = list(Data_P.ToBytes())
+    data_len = len(data)
+    CH_232_1.Write(data)
+    API.Common.Timer.Normal.Sleep(ms)
+    #计算总包数
+    总包数X = int(math.ceil(data_len/40.0)) + 1
+    print type(总包数X)
+    #发送首包，分两帧发送
+    FirstPackage.数据包总数.Value = 总包数X
+    FirstPackage.数据总长度.Value = data_len
+    First_Datas = FirstPackage.ToBytes()
+    CH_232_1.Write(First_Datas)
+    API.Common.Timer.Normal.Sleep(ms)
+    for i in range(0, len(First_Datas), 8):
+        CH_232_1.Write(First_Datas[i:i+8])
+        API.Common.Timer.Normal.Sleep(ms)
+
+    #发送中间包
+    Package_Head.数据包总数.Value = 总包数X
+
+    for num in range(2, 总包数X+1):
+        Package_Head.数据子包序号.Value = num
+        Package_Head.数据长度.Value = len(data[:40])
+        Package_Data_Head = list(Package_Head.ToBytes())
+        print '============='
+        
+        print '子包序号：%d'%Package_Head.数据子包序号.Value
+        print '数据长度：%d'%Package_Head.数据长度.Value
+        print data[:40]
+        Package_Data = Package_Data_Head + data[:40]
+        CH_232_1.Write(Package_Data)
+        API.Common.Timer.Normal.Sleep(ms)
+        for i in range(0, len(Package_Data), 8):
+            CH_232_1.Write(Package_Data[i:i+8])
+            API.Common.Timer.Normal.Sleep(ms)
+        data = data[40:]
+        
+    print '数据总长度 = %d'%data_len
+    print '总包数X = %d'%总包数X
+    
+#    尾包数据长度Y = data_len % 包最大长度
+#    尾包数据帧数Z = math.ceil((尾包数据长度Y+9) / 8)
+    
+#    for i in range(0, data_len, 8):
+#        CH_232_1.Write(data[i:i+8])
+#        API.Common.Timer.Normal.Sleep(100)
+Main()]]></Code>
+  </TCPython>
+  <LogicChannel KYID="86F58730-E77B-4F7F-B29C-CF1593F19D78" Name="CH_CAN_1" PeripheralSystem="31D31C1E-311F-4FE9-98C8-176CD99216FE" ChannelType="CAN" />
+  <SIMChannel KYID="691A29A6-C920-4D1E-9304-F9953C62F5FF" Name="SIMChannel_2" Model="86F58730-E77B-4F7F-B29C-CF1593F19D78" Rect="{X=435.9468,Y=385.8592,Width=10,Height=10}" />
+  <PlaningChannel KYID="45E04906-0A3B-4C3A-B0F9-3F617AF1DE0B" Name="CH_CAN_1" HardwarePlan="10BF1904-F51F-4EDD-9F07-6CCE6F5506F9" LogicChannelID="86F58730-E77B-4F7F-B29C-CF1593F19D78" />
+  <Protocol KYID="DE87378D-B574-49CA-802D-19BA729B5BA4" Name="CANW" Parent="86F58730-E77B-4F7F-B29C-CF1593F19D78" Direction="READ_WRITE" Document=""><![CDATA[Protocol StandardFrame
+    Segment FrameFormat  Boolean  Default=False   #帧格式
+    Segment FrameType    Boolean  Default=False   #帧类型
+    Segment h1     RandomInt Length=2    Format=Complement   #保留
+    Segment Len    RandomUInt    Length=4    Default=8        #数据长度
+    Segment ID    StandardUInt16    #ID1
+    Segment data Buffer Count=8
+End]]></Protocol>
+  <SIMProtocol KYID="A85BD12C-B5B2-4D32-9FB8-C7887218E706" Name="SIMProtocol_4" Model="DE87378D-B574-49CA-802D-19BA729B5BA4" Direction="READ_WRITE" Points="" />
+</Root>
